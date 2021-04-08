@@ -1,0 +1,19 @@
+<app-map-filter
+  [@mapFilterActive]="mapFilterActive"
+  id="map_filter"
+  (mouseenter)="onMouseOnFilterEnter()"
+  (mouseleave)="onMouseOnFilterLeave()">
+</app-map-filter>
+
+<app-navbar
+  [@mapNavbarActive]="mapNavbarActive"
+  id="map_navbar"
+  (mouseenter)="onMouseOnNavbarEnter()"
+  (mouseleave)="onMouseOnNavbarLeave()">
+</app-navbar>
+
+<div id="popup" title="myproject" class="ol-popup"><a id="popup-content"></a></div>
+
+<div class="row">
+  <div id="apartments_map"></div>
+</div>

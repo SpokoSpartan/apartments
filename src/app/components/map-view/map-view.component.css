@@ -1,0 +1,64 @@
+#navbar_rule {
+  position: relative;
+  top: 3px;
+  border: none;
+  opacity: 0.2;
+  margin-top: -50px;
+  height: 35px;
+  width: 100%;
+  color: white;
+  background-color: white;
+  padding: 15px 0;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  z-index: 3;
+}
+
+.button {
+  border-radius: 17px;
+  position: relative;
+  background-color: #FFC95D;
+  border: 2px solid #FFC95C;
+  top: 3px;
+  margin-left: 3px;
+  margin-right: 3px;
+  padding: 10px 20px;
+  opacity: 0.5;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  z-index: 5;
+}
+
+
+#apartments_map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+#map_filter {
+  position: absolute;
+  z-index: 5;
+  right: 0;
+  top: 0;
+  margin-top: 2%;
+  width: 355px;
+  height: 90%;
+  opacity: 1.0;
+}
+
+#map_navbar {
+  position: absolute;
+  z-index: 5;
+  right: 0;
+  top: 0;
+  width: 90%;
+  height: 90px;
+  margin-top: -8px;
+  opacity: 1.0;
+}
